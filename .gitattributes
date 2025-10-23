@@ -1,0 +1,14 @@
+# Ignora notebooks mais pesados
+04_data_analysis.ipynb linguist-detectable=false
+02_data_transformation.ipynb linguist-detectable=false
+01_data_extraction.ipynb linguist-detectable=true
+
+# Mantém os notebooks leves detectáveis
+01_data_extraction.ipynb linguist-detectable=true
+03_data_load.ipynb linguist-detectable=true
+
+# Ignora arquivos de dados grandes
+data/* linguist-detectable=false
+*.parquet linguist-detectable=false
+*.csv linguist-detectable=false
+*.json linguist-detectable=false
